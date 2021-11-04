@@ -1,0 +1,127 @@
+body {
+    background-color: lightgray;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+}
+h1, h2, h3 {
+    font-family: 'Copperplate';
+    width: 60%;
+    height: auto;
+    margin: 10 auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  .bg--light {
+    background: #fcfcfc;
+  }
+  .exchange {
+    max-width: 50px;
+  }
+
+.style-chooser .el__select,
+.style-chooser .vs__select::placeholder,
+.style-chooser .vs__dropdown-toggle{
+  background: #dfe5fb;
+  width: 50%;
+  border: solid;
+  color: #394066;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  margin: auto;
+}
+
+.style-chooser .vs__dropdown-menu {
+  background: #dfe5fb;
+  width: 100%;
+  border: none;
+  color: #394066;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+.style-chooser .vs__clear,
+.style-chooser .vs__open-indicator {
+  fill: #394066;
+  background: #dfe5fb;
+  width: 50%;
+  border: none;
+  color: #394066;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  margin: auto;
+}
+.vs__fade-enter-active,
+.vs__fade-leave-active {
+    transition: none;
+    background: #dfe5fb;
+  width: 50%;
+  border: none;
+  color: #394066;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  margin: auto;
+}
+button,
+.inputstyle,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+.inputstyle {
+  /* 1 */
+  width: 50%;
+  background-color: white;
+  height: 25px;
+  margin: 0 auto;
+  border: none; /* <-- This thing here */
+  border:solid 1px #ccc;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.pstyle{
+  font-family: 'Copperplate';
+  text-align: center;
+  align-items: center;
+    justify-content: center;
+  width: 50%;
+  /* background-color: white; */
+  height: 100%;
+  margin: 0 auto;
+  /* border: none; <-- This thing here */
+  /* border:solid 1px #ccc; */
+  /* border-radius: 10px; */
+  margin: auto;
+  display: block;
+}
+
+.elselectstyle{
+  font-family: 'Copperplate';
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: block;
+}
+
+
+
